@@ -20,10 +20,10 @@ const Navbar = () => {
                     <li>Testimonials</li>
                 </ul>
                 </div>
-                
+                <button className="button n-button">Contact</button>
             </div>
 
-            <button className="button n-button">Contact</button>
+            
         </div>
     )
    

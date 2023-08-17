@@ -30,9 +30,15 @@ const Intro = () => {
                 <a href='https://github.com/rlachos'>
                     <img src={Github} alt="" />
                 </a>
-                
+               
+                <a>
                 <img src={LinkedIn} alt="" />
+                </a>
+                
+                <a href='https://instagram.com/rossio.lachos/'>
                 <img src={Instagram} alt="" />
+                </a>
+                
             </div>
         </div>
         <div className="i-right">
