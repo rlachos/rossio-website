@@ -47,6 +47,10 @@ function Services() {
                     heading={"UI/UX"}
                     detail={"Lorem ispum dummy text are usually use in section where we need some random text"}/>
             </div>
+            <div
+          className="blur s-blur2"
+          style={{ background: "var(--purple)" }}
+        ></div>
         </div>
 
 
