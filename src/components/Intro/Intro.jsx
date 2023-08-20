@@ -10,12 +10,19 @@ import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatingDiv from '../FloatingDiv/Floating'
+import { useContext } from "react";
+import { themeContext } from '../../context';
+import {motion} from 'framer-motion'
+
 const Intro = () => {
+     const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
+    const transition = { duration: 2, type: "spring" };
   return (
     <div className="Intro">
         <div className="i-left">
             <div className="i-name">
-                <span>Hy! I Am</span>
+                <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
                 <span>Rossio Lachos</span>
                 <span>
                     Computer Science engineer with marketing 
@@ -45,14 +52,29 @@ const Intro = () => {
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
             <img src={boy} alt="" />
-            <img src={glassesimoji} alt="" />
-            <div style={{top:'-4%', left: '68%'}}>
-                <FloatingDiv image={crown} txt1='Web' txt2='Developer'/>
-            </div>
+            <motion.img
+          initial={{ left: "-36%" }}
+          whileInView={{ left: "-24%" }}
+          transition={transition}
+          src={glassesimoji}
+          alt=""
+            />
 
-            <div style={{top:'18rem', left: '0rem'}}>
+            <motion.div 
+              initial={{ top: "-4%", left: "74%" }}
+              whileInView={{ left: "68%" }}
+              transition={transition}
+              style={{top:'-4%', left: '68%'}}>
+                <FloatingDiv image={crown} txt1='Web' txt2='Developer'/>
+            </motion.div>
+
+            <motion.div 
+            initial={{ left: "9rem", top: "18rem" }}
+            whileInView={{ left: "0rem" }}
+            transition={transition}
+            style={{top:'18rem', left: '0rem'}}>
                 <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award'/>
-            </div>
+            </motion.div>
             <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
             <div className="blur" 
             style={{
