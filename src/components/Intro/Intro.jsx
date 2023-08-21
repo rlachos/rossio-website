@@ -69,7 +69,7 @@ const Intro = () => {
               whileInView={{ left: "68%" }}
               transition={transition}
               style={{top:'-19%', left: '68%'}}>
-                <FloatingDiv image={crown} txt1='Web' txt2='Developer'/>
+                <FloatingDiv image={crown} txt1='Computer' txt2='Engineering'/>
             </motion.div>
 
             <motion.div 
@@ -77,7 +77,7 @@ const Intro = () => {
             whileInView={{ left: "0rem" }}
             transition={transition}
             style={{top:'18rem', left: '0rem'}}>
-                <FloatingDiv image={thumbup} txt1='Computer' txt2='Engineer'/>
+                <FloatingDiv image={thumbup} txt1='Web' txt2='Developer'/>
             </motion.div>
             <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
             <div className="blur" 

@@ -5,6 +5,7 @@ import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
+import Website from "../../img/rossiowebsite.png"
 import "swiper/css";
 import { useContext } from "react";
 import { themeContext } from '../../context';
@@ -25,16 +26,16 @@ const Portfolio = () => {
            className="portfolio-slider"
            >
                 <SwiperSlide>
-                    <img src={Sidebar} alt="" />
+                    <img src={Website} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={Ecommerce} alt="" />
+                    <img src={Website} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={HOC} alt="" />
+                    <img src={Website} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={MusicApp} alt="" />
+                    <img src={Website} alt="" />
                 </SwiperSlide>
            </Swiper>
         </div>
