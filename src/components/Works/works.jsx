@@ -1,13 +1,18 @@
 import React, { useContext } from "react";
 import "./works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+
+import Rubyonrails from "../../img/rubyonrails2.png"
+import Ruby from "../../img/ruby1.png"
+
+import Jslogo from "../../img/js1.png"
+import Reactlogo from "../../img/react1.png"
+
+import Css from "../../img/css3.png"
+
 import { themeContext } from "../../context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
+
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -21,18 +26,17 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            My
           </span>
-          <span>Brands & Clients</span>
+          <span>Skills</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+          Proficient in a wide range of technologies, including Ruby, 
+          <br />
+          Ruby on Rails, React, Java, HTML, CSS, and Insomnia, with
+          <br />
+          a focus on developing and consuming RESTful APIs to build 
+          <br />
+          robust web applications.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -54,19 +58,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={Rubyonrails} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={Jslogo} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={Reactlogo} alt="" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Ruby} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Css} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}

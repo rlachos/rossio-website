@@ -24,12 +24,12 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        In my capacity as a Full Stack web developer, I have the versatility to oversee all facets of 
           <br />
-          ispum is simpley dummy text of printing
+          web development, covering both the front-end and back-end layers.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Front-end"}
+            detail={"Proficient in crafting captivating and user-centric front-end experiencesthrough responsive web design, interactive user interfaces, and seamless navigation."}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Back-end"}
+            detail={"Experienced in building back-end systems, implementing data storage solutions, and ensuring efficient server-side operations for seamless web applications."}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +70,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Databases"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Skilled in designing, modeling, and querying databases."
             }
             color="rgba(252, 166, 31, 0.45)"
           />
