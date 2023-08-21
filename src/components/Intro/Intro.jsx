@@ -28,7 +28,7 @@ const Intro = () => {
                     Computer Science engineer with marketing 
                     management background, passionate about 
                     web development and informatics
-                    helllooooo
+        
                 </span>
             </div>
            
