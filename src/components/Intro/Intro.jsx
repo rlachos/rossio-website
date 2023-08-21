@@ -38,15 +38,15 @@ const Intro = () => {
             </button>
             </Link>
             <div className="i-icons">
-                <a href='https://github.com/rlachos' target="_blank">
+                <a href='https://github.com/rlachos' target="_blank" rel="noreferrer">
                     <img src={Github} alt="" />
                 </a>
                
-                <a href='https://www.linkedin.com/in/rlachos/' target="_blank">
+                <a href='https://www.linkedin.com/in/rlachos/' target="_blank" rel="noreferrer">
                 <img src={LinkedIn} alt=""/>
                 </a>
                 
-                <a href='https://instagram.com/rossio.lachos/' target="_blank">
+                <a href='https://instagram.com/rossio.lachos/' target="_blank" rel="noreferrer">
                 <img src={Instagram} alt="" />
                 </a>
                 
