@@ -19,7 +19,7 @@ const Intro = () => {
     const darkMode = theme.state.darkMode;
     const transition = { duration: 2, type: "spring" };
   return (
-    <div className="Intro">
+    <div className="Intro" id="Intro">
         <div className="i-left">
             <div className="i-name">
                 <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
@@ -34,15 +34,15 @@ const Intro = () => {
                 Hire me
             </button>
             <div className="i-icons">
-                <a href='https://github.com/rlachos'>
+                <a href='https://github.com/rlachos' target="_blank">
                     <img src={Github} alt="" />
                 </a>
                
-                <a>
-                <img src={LinkedIn} alt="" />
+                <a href='https://www.linkedin.com/in/rlachos/' target="_blank">
+                <img src={LinkedIn} alt=""/>
                 </a>
                 
-                <a href='https://instagram.com/rossio.lachos/'>
+                <a href='https://instagram.com/rossio.lachos/' target="_blank">
                 <img src={Instagram} alt="" />
                 </a>
                 
@@ -73,7 +73,7 @@ const Intro = () => {
             whileInView={{ left: "0rem" }}
             transition={transition}
             style={{top:'18rem', left: '0rem'}}>
-                <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award'/>
+                <FloatingDiv image={thumbup} txt1='Computer' txt2='Engineer'/>
             </motion.div>
             <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
             <div className="blur" 
