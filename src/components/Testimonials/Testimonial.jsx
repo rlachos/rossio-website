@@ -18,7 +18,7 @@ const Testimonial = () => {
     {
       img: Melanie,
       review:
-        "I'm pleased to wholeheartedly recommend Rocio Lachos, a standout professional I had the privilege of collaborating with during the successful Asia-Pacific Economic Cooperation (APEC) forum assembly in Peru. Rocio's exceptional project management skills were pivotal in ensuring the conferences' success.",
+        "I'm pleased to wholeheartedly recommend Rossio Lachos, a standout professional I had the privilege of collaborating with during the successful Asia-Pacific Economic Cooperation (APEC) forum assembly in Peru. Rossio's exceptional project management skills were pivotal in ensuring the conferences' success.",
     },
     {
       img: Abraham,
