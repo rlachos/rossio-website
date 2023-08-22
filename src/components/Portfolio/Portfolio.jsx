@@ -3,6 +3,8 @@ import './Porfolio.css'
 import { Swiper, SwiperSlide } from "swiper/react"
 import Website from "../../img/rossiowebsite.png"
 import Youtube from "../../img/youtubecss.png"
+import Amazon from "../../img/amazonweb.png"
+import Home from "../../img/getthathome.png"
 import "swiper/css";
 import { useContext } from "react";
 import { themeContext } from '../../context';
@@ -26,13 +28,13 @@ const Portfolio = () => {
                     <img src={Website} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
+                    <img src={Home} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={Amazon} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
                     <img src={Youtube} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Website} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Website} alt="" />
                 </SwiperSlide>
            </Swiper>
         </div>
