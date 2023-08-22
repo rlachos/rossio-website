@@ -42,7 +42,6 @@ const Testimonial = () => {
       <div className="t-heading">
         <span>Coworkers and Mentors</span>
         <span> recomendations </span>
-        <span>about me...</span>
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
